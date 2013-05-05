@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextViewDelegate, UITextFieldDelegate> {
+
+    NSString *strRcv;
+
+    UITextField *txtTermCmd;
+}
+
+// Terminal Window
+@property (weak, nonatomic) IBOutlet UITextView *txtvTerm;
+
+// barbutton
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *bbtnFind;
+- (IBAction)bbtnFind_Action:(id)sender;
 
 @end
