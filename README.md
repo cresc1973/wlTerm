@@ -1,6 +1,8 @@
 wlTerm
 ======
 
+This is a test upload for git and github...
+
 Wire less uart communication for iPhone with Konashi
 
 This is a study of the simple terminal software using Konashi.
@@ -8,6 +10,8 @@ This is a study of the simple terminal software using Konashi.
 It is not VT compatible. 
 
 This needs "konashi-ios-sdk" from "https://github.com/YUKAI/konashi-ios-sdk.git"
+
+git/githubのテストです。
 
 Konashiを使ったワイヤレスシリアル通信のテストプログラムです。
 
