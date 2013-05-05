@@ -20,8 +20,8 @@
 		E201884C17130577006C2EB8 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E201884A17130577006C2EB8 /* MainStoryboard_iPad.storyboard */; };
 		E201884F17130577006C2EB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E201884E17130577006C2EB8 /* ViewController.m */; };
 		E2018856171305AA006C2EB8 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2018855171305AA006C2EB8 /* CoreBluetooth.framework */; };
-		E201885B171305E3006C2EB8 /* Konashi.m in Sources */ = {isa = PBXBuildFile; fileRef = E2018859171305E3006C2EB8 /* Konashi.m */; };
-		E2A30FBF171ADFB5008E853F /* btnKeyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = E2A30FBE171ADFB5008E853F /* btnKeyboard.png */; };
+		E214647817361ADC00CBA435 /* Konashi.m in Sources */ = {isa = PBXBuildFile; fileRef = E214647417361ADC00CBA435 /* Konashi.m */; };
+		E214647917361ADC00CBA435 /* btnKeyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = E214647717361ADC00CBA435 /* btnKeyboard.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,10 +43,10 @@
 		E201884D17130577006C2EB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E201884E17130577006C2EB8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; };
 		E2018855171305AA006C2EB8 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
-		E2018858171305E3006C2EB8 /* Konashi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Konashi.h; sourceTree = "<group>"; };
-		E2018859171305E3006C2EB8 /* Konashi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Konashi.m; sourceTree = "<group>"; };
-		E201885A171305E3006C2EB8 /* KonashiDb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KonashiDb.h; sourceTree = "<group>"; };
-		E2A30FBE171ADFB5008E853F /* btnKeyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnKeyboard.png; sourceTree = "<group>"; };
+		E214647317361ADC00CBA435 /* Konashi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Konashi.h; sourceTree = "<group>"; };
+		E214647417361ADC00CBA435 /* Konashi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Konashi.m; sourceTree = "<group>"; };
+		E214647517361ADC00CBA435 /* KonashiDb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KonashiDb.h; sourceTree = "<group>"; };
+		E214647717361ADC00CBA435 /* btnKeyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnKeyboard.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +67,8 @@
 		E201882317130576006C2EB8 = {
 			isa = PBXGroup;
 			children = (
-				E2A30FBD171ADFB5008E853F /* resources */,
-				E2018857171305E3006C2EB8 /* Konashi */,
+				E214647217361ADC00CBA435 /* Konashi */,
+				E214647617361ADC00CBA435 /* resources */,
 				E201883517130576006C2EB8 /* wlTerm */,
 				E201882E17130576006C2EB8 /* Frameworks */,
 				E201882D17130576006C2EB8 /* Products */,
@@ -122,22 +122,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E2018857171305E3006C2EB8 /* Konashi */ = {
+		E214647217361ADC00CBA435 /* Konashi */ = {
 			isa = PBXGroup;
 			children = (
-				E2018858171305E3006C2EB8 /* Konashi.h */,
-				E2018859171305E3006C2EB8 /* Konashi.m */,
-				E201885A171305E3006C2EB8 /* KonashiDb.h */,
+				E214647317361ADC00CBA435 /* Konashi.h */,
+				E214647417361ADC00CBA435 /* Konashi.m */,
+				E214647517361ADC00CBA435 /* KonashiDb.h */,
 			);
-			path = Konashi;
+			name = Konashi;
+			path = wlTerm/Konashi;
 			sourceTree = "<group>";
 		};
-		E2A30FBD171ADFB5008E853F /* resources */ = {
+		E214647617361ADC00CBA435 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				E2A30FBE171ADFB5008E853F /* btnKeyboard.png */,
+				E214647717361ADC00CBA435 /* btnKeyboard.png */,
 			);
-			path = resources;
+			name = resources;
+			path = wlTerm/resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +199,7 @@
 				E201884617130576006C2EB8 /* Default-568h@2x.png in Resources */,
 				E201884917130577006C2EB8 /* MainStoryboard_iPhone.storyboard in Resources */,
 				E201884C17130577006C2EB8 /* MainStoryboard_iPad.storyboard in Resources */,
-				E2A30FBF171ADFB5008E853F /* btnKeyboard.png in Resources */,
+				E214647917361ADC00CBA435 /* btnKeyboard.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +213,7 @@
 				E201883C17130576006C2EB8 /* main.m in Sources */,
 				E201884017130576006C2EB8 /* AppDelegate.m in Sources */,
 				E201884F17130577006C2EB8 /* ViewController.m in Sources */,
-				E201885B171305E3006C2EB8 /* Konashi.m in Sources */,
+				E214647817361ADC00CBA435 /* Konashi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
